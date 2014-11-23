@@ -10,19 +10,19 @@ mySQL:
 
 Preset/Customized wordlist:
   + To use preset wordlist:
-    ++ Replace username and password with your own in TransferMain.java:
+    + Replace username and password with your own in TransferMain.java:
     ```bash
     Connection conn = DriverManager.getConnection("jdbc:mysql://localhost/" + DATABASE_NAME, "username", "password");
     ```
-    ++ Run TransferMain.java to fill db up with words and valid solutions
+    + Run TransferMain.java to fill db up with words and valid solutions
 
   + To use customized wordlist:
-    ++ Replace words.txt with your own.
-    ++ Replace username and password with your own in DictionaryMain.java:
+    + Replace words.txt with your own.
+    + Replace username and password with your own in DictionaryMain.java:
     ```bash
     Connection conn = DriverManager.getConnection("jdbc:mysql://localhost/" + DATABASE_NAME, "username", "password");
     ```
-    ++ Run DictionaryMain.java to fill db up with words and valid solutions
+    + Run DictionaryMain.java to fill db up with words and valid solutions
 
 ####Credits:
 https://github.com/thejasonhsu
