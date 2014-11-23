@@ -15,7 +15,7 @@ Connection conn = DriverManager.getConnection("jdbc:mysql://localhost/" + DATABA
 ```
 
 To use customized wordlist:
-  + Replace words.txt with your own:
+  + Replace words.txt with your own.
   + Replace username and password with your own in DictionaryMain.java:
 ```bash
 Connection conn = DriverManager.getConnection("jdbc:mysql://localhost/" + DATABASE_NAME, "username", "password");
