@@ -1,5 +1,4 @@
 ###Scrabanagram
-  + Problem 1 and 2 answers are available in `hw1.txt`
 
 ####Compiling and Running
 Download all files.
