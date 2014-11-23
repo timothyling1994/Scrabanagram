@@ -14,7 +14,7 @@ Preset/Customized wordlist:
     ```bash
     Connection conn = DriverManager.getConnection("jdbc:mysql://localhost/" + DATABASE_NAME, "username", "password");
     ```
-    + Run TransferMain.java to fill db up with words and valid solutions
+    + Run TransferMain.java to fill db up with words and valid solutions.
 
   + To use customized wordlist:
     + Replace words.txt with your own.
@@ -22,7 +22,7 @@ Preset/Customized wordlist:
     ```bash
     Connection conn = DriverManager.getConnection("jdbc:mysql://localhost/" + DATABASE_NAME, "username", "password");
     ```
-    + Run DictionaryMain.java to fill db up with words and valid solutions
+    + Run DictionaryMain.java to fill db up with words and valid solutions.
 
 ####Credits:
 https://github.com/thejasonhsu
