@@ -24,5 +24,9 @@ Preset/Customized wordlist:
     ```
     + Run DictionaryMain.java to fill db up with words and valid solutions.
 
+Proceed to run the main program.
+
+Launch as many times as the number of players needed. 
+
 ####Credits:
 https://github.com/thejasonhsu
