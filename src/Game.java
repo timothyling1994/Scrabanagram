@@ -20,7 +20,7 @@ import javax.swing.Timer;
 
 public class Game extends JFrame{
 	
-	String username = "elif", level = "diamond";
+	String username = "Tester01", level = "Bronze";
 	JPanel main, play, setting, startPanel, window;
 	CardLayout cl;
 	int count = 30, points = 0, numPlayers;
@@ -34,12 +34,12 @@ public class Game extends JFrame{
 
 		window = new JPanel();
 		main = new JPanel();		
-		JLabel logo = new JLabel(new ImageIcon("./main.jpg")); 
+		JLabel logo = new JLabel(new ImageIcon("./images/main.jpg")); 
 		window.setLayout(new CardLayout());
 		cl = (CardLayout)(window.getLayout());
 
-		JButton start = new JButton(new ImageIcon("./start.jpg"));
-		JButton settings = new JButton(new ImageIcon("./settings.jpg"));
+		JButton start = new JButton(new ImageIcon("./images/start.jpg"));
+		JButton settings = new JButton(new ImageIcon("./images/settings.jpg"));
 		start.setBorder(BorderFactory.createEmptyBorder());
 		start.setContentAreaFilled(false);
 		settings.setBorder(BorderFactory.createEmptyBorder());
@@ -47,9 +47,9 @@ public class Game extends JFrame{
 		
 		/*
 		start.setRolloverEnabled(true);
-		start.setRolloverIcon(new ImageIcon("./start.jpg"));
+		start.setRolloverIcon(new ImageIcon("./images/start.jpg"));
 		settings.setRolloverEnabled(true);
-		settings.setRolloverIcon(new ImageIcon("./start.jpg"));
+		settings.setRolloverIcon(new ImageIcon("./images/start.jpg"));
 		*/
 		
 		settings.addActionListener(new ActionListener(){
@@ -104,10 +104,10 @@ public class Game extends JFrame{
         
         
         // *** START  ***
-        JLabel startLabel = new JLabel(new ImageIcon("./start.jpg"));
+        JLabel startLabel = new JLabel(new ImageIcon("./images/start.jpg"));
         startPanel = new JPanel();
-        JButton two = new JButton(new ImageIcon("./two.jpg"));
-        JButton three = new JButton(new ImageIcon("./three.jpg"));
+        JButton two = new JButton(new ImageIcon("./images/two.jpg"));
+        JButton three = new JButton(new ImageIcon("./images/three.jpg"));
         two.setBorder(BorderFactory.createEmptyBorder());
 		two.setContentAreaFilled(false);
 		three.setBorder(BorderFactory.createEmptyBorder());
@@ -151,7 +151,7 @@ public class Game extends JFrame{
 		play.setBackground(Color.WHITE);
 		play.setLayout(new BoxLayout(play, BoxLayout.Y_AXIS));
 		
-		JLabel smallLogo = new JLabel(new ImageIcon("./small.jpg"));
+		JLabel smallLogo = new JLabel(new ImageIcon("./images/small.jpg"));
 		JLabel round = new JLabel("ROUND " + roundCount);
 		round.setFont(new Font(nameLabel.getFont().getName(), Font.BOLD, 36));
 		JLabel word = new JLabel("Your word:");
@@ -193,9 +193,9 @@ public class Game extends JFrame{
 		setting.setBackground(Color.WHITE);
 		setting.setLayout(new BoxLayout(setting, BoxLayout.Y_AXIS));
 		setting.add(Box.createGlue());
-		JLabel settingsLabel = new JLabel(new ImageIcon("./settings.jpg"));
-		JLabel name = new JLabel(new ImageIcon("./name.jpg"));
-		JLabel icons = new JLabel(new ImageIcon("./icon.jpg"));
+		JLabel settingsLabel = new JLabel(new ImageIcon("./images/settings.jpg"));
+		JLabel name = new JLabel(new ImageIcon("./images/name.jpg"));
+		JLabel icons = new JLabel(new ImageIcon("./images/icon.jpg"));
 		JTextField nameInput = new JTextField(username, 35);
 		setting.add(settingsLabel);
 		setting.add(Box.createGlue());
