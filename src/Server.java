@@ -3,10 +3,7 @@ import java.net.ServerSocket;
 import java.net.Socket;
 import java.util.Vector;
 
-
 public class Server {
-	
-	
 	private Vector<ThreadClass> players = new Vector<ThreadClass>();
     public Server(int port) {
          

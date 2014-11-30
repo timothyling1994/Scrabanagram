@@ -1,11 +1,8 @@
-
-
 import java.io.BufferedReader;
 import java.io.IOException;
 import java.io.InputStreamReader;
 import java.io.PrintWriter;
 import java.net.Socket;
-
 
 public class ThreadClass implements Runnable{
 	
@@ -19,7 +16,7 @@ public class ThreadClass implements Runnable{
             this.serverClassInstance = serverClassInstance;
            
             try{
-                    // Establish an output stream for the game.
+                    //Establish an output stream for the game.
                     this.pw = new PrintWriter(s.getOutputStream());
             }
             catch (IOException ioe) {
