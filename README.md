@@ -27,12 +27,3 @@ Preset/Customized wordlist:
 Proceed to run the main program.
 
 Launch as many times as the number of players needed. 
-
-####Credits:
-https://github.com/thejasonhsu
-
-https://github.com/elifnaz
-
-https://github.com/timothyling1994
-
-https://github.com/katariaraghav
