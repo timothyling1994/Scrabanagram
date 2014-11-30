@@ -1,5 +1,3 @@
-
-
 import java.awt.event.ActionEvent;
 import java.awt.event.ActionListener;
 import java.io.BufferedReader;
@@ -9,9 +7,6 @@ import java.io.PrintWriter;
 import java.net.Socket;
 
 import javax.swing.JFrame;
- 
-
- 
  
 public class Client extends JFrame implements Runnable{
        
